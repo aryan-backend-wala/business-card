@@ -1,19 +1,165 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
+html {
+  box-sizing: border-box;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+.content {
+  background-color: #F5F5F5;
+  width: 60vw;
+  height: 70vh;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-panel{
+  background-color: forestgreen;
+  width: 30%;
+  height: 100%;
+  border-radius: 40px 0 0 40px;
+  position: relative;
+}
+
+.h-bar {
+  background-color: azure;
+  width: 100%;
+  height: 4%;
+  transform: translateY(300px);
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: forestgreen;
+  border-radius: 100%;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+  top: -70px;
+  right: -70px;
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+.s-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #2E7D32;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 60px;
+  right: 415px;
+  z-index: 2;
 }
 
-.footer span {
-  font-size: 14px;
+.user {
+  position: absolute;
+  width: 27%;
+  height: 70%;
+  top: 70px;
+  left: 230px;
+  z-index: 3;
+}
+
+.square {
+  position: absolute;
+  top: 100px;
+  left: 210px;
+  background-color: #E0E0E0;
+  width: 45px;
+  height: 50px;
+  z-index: 3;
+}
+
+.s-square{
+  top: 400px;
+  left: 255px;
+}
+
+.left-square {
+  top: 100px;
+  left: 455px;
+  height: 20px;
+}
+
+.info{
+  position: absolute;
+  top: 150px;
+  left: 25px;
+}
+
+.socials {
+  position: absolute;
+  bottom: 120px;
+  left: 20px;
+}
+
+.email {
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+#email {
+  margin-top: 5px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+#text {
+  color: whitesmoke;
+}
+
+.email-whole {
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.info-content {
+  position: absolute;
+  top: 60px;
+  right: 250px;
+}
+
+.name {
+  position: absolute;
+  top: 10;
+  right: -50px;
+}
+
+.first {
+  font-size: 60px;
+  color: #2E7D32;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.last {
+  margin-left: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.position {
+  position: absolute;
+  top: 150px;
+  right: -230px;
+  width: 400px;
+  letter-spacing: 0.2px;
+}
+
+#position {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 10px;
 }
